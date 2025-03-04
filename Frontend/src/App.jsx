@@ -41,7 +41,7 @@ const [review, setreview] = useState(``)
       width: "100%"
     }}></Editor>
     </div>
-       <button onClick={clickHandeler} className="rounded-md hover:bg-amber-300 text-black font-semibold text-sm py-1 cursor-pointer bg-[#84849A] absolute bottom-4 left-[85%] pointer-events-auto px-4 ">REVIEW</button>
+       <button onClick={clickHandeler} className="rounded-md text-black font-semibold text-sm py-1 cursor-pointer bg-[#84849A] absolute bottom-4 left-[85%] pointer-events-auto px-4 ">REVIEW</button>
     </div>
     <div className="right p-2   w-1/2 ">
     <div className="code  h-full  rounded-md  p-2 pl-4 overflow-auto bg-[#343434]  ">
